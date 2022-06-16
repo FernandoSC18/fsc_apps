@@ -10,6 +10,7 @@ export default function Index(props) {
         return <Head>
             <meta charSet="utf-8"/>
             <title> Este es un titulo </title> 
+            <link rel="manifest" href="/manifest_apps.json" />
             <link rel="icon" href="/favicon.ico"/> 
             <meta name="autor" content="autor"/>
         </Head>

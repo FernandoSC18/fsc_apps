@@ -7,8 +7,7 @@ export default function Pomodoro() {
 
       return <Head>
           <meta charSet="utf-8"/>
-          <title> Pomodoro </title>
-          <link rel="manifest" href="/manifest_copia.json" />
+          <title> Pomodoro </title> 
           <link rel="icon" href="/favicon.ico"/>
           <meta name="theme-color" content="$fff"/>
           <meta name="autor" content="autor"/>
