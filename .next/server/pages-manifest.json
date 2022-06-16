@@ -1,0 +1,11 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/copia": "pages/copia.html",
+  "/": "pages/index.html",
+  "/pomodoro": "pages/pomodoro.html",
+  "/privacypolicy/codigo": "pages/privacypolicy/codigo.html",
+  "/privacypolicy/volado3d": "pages/privacypolicy/volado3d.html",
+  "/_error": "pages/_error.js"
+}

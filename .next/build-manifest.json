@@ -1,0 +1,70 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/YTb6Hl_Wr2kUP8el3uOUI/_buildManifest.js",
+    "static/YTb6Hl_Wr2kUP8el3uOUI/_ssgManifest.js",
+    "static/YTb6Hl_Wr2kUP8el3uOUI/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/716-32603f9104c6daa5.js",
+      "static/chunks/pages/index-3db503cc69a08f95.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/pages/404-c95b0777a0d6f5aa.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/css/e6a42db92ca0b084.css",
+      "static/chunks/pages/_app-9490f5040fe3bd19.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/pages/_error-1995526792b513b2.js"
+    ],
+    "/copia": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/pages/copia-27636c56889e366e.js"
+    ],
+    "/pomodoro": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/cb1608f2-f1898ddcc838c233.js",
+      "static/chunks/716-32603f9104c6daa5.js",
+      "static/chunks/814-6e0882a3f091af66.js",
+      "static/chunks/pages/pomodoro-91cf962ebeb0fd9a.js"
+    ],
+    "/privacypolicy/codigo": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/716-32603f9104c6daa5.js",
+      "static/chunks/pages/privacypolicy/codigo-4692bd898d0835de.js"
+    ],
+    "/privacypolicy/volado3d": [
+      "static/chunks/webpack-9b312e20a4e32339.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-25561f9c82299356.js",
+      "static/chunks/716-32603f9104c6daa5.js",
+      "static/chunks/pages/privacypolicy/volado3d-cd391c0c2da0e4cb.js"
+    ]
+  },
+  "ampFirstPages": []
+}
