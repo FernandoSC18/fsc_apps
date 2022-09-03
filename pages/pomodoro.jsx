@@ -1,7 +1,6 @@
 import Head from "next/head" 
 
 import styled from 'styled-components';
-import logo from '../src/images/tomato.jpg';
 import TimerClock from '../components/timerClock.jsx';
 import Tabs from '../components/tabs.jsx';
 //import BtnText from './components/btnText.jsx';
@@ -18,6 +17,7 @@ import { faCog } from '@fortawesome/free-solid-svg-icons'
 
 export default function Pomodoro() {
 
+  const logo = '/images/tomato.jpg';
  
   function handleOpenSetting (props){   
     setPopSettings({visibility:'visible', opacity:1})
