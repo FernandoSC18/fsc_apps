@@ -4,7 +4,7 @@ import Title from '../../components/title';
  
 function Volado3d (props) {
     
-    const icon = '/imagenes/png/voladoCoin.png' 
+    const icon = '/images/png/voladoCoin.png' 
 
     const AreaHead = () => {
         return (  
@@ -38,9 +38,12 @@ function Volado3d (props) {
                         <p>Fecha de Actualización 06 de Mayo del 2021</p> 
                     </div> 
                     <br/>   
+                    <IconContainer>
+                        <Image src={icon}  />
+                    </IconContainer>
                     <div className="parrafo">  
                         <br/>   
-                        <p><b> Volado 3D entiende la importancia de tu privacidad </b> y, por lo tanto, la aplicación de Volado 3D:
+                        <p><Bolder> Volado 3D entiende la importancia de tu privacidad </Bolder> y, por lo tanto, la aplicación de Volado 3D:
                             <br/>    
                             <br/>    
                             -	No recopila datos de carácter personal de los usuarios.  
@@ -101,10 +104,28 @@ function Volado3d (props) {
 
 export default Volado3d
  
+
+const Bolder = styled.span`  
+color: #0077ff;
+`
+
 const Container = styled.div`  
-    display: block;
-    width: 100%;  
-    margin: auto; 
-    padding: 0 20px;
-    max-width: 1000px; 
+display: block;
+width: 100%;  
+margin: auto; 
+padding: 0 20px;
+max-width: 1000px; 
+`
+
+const IconContainer = styled.div`  
+margin: auto;
+max-width: 100%;
+width: 200px;
+height: 200px;
+padding: 10px;
+box-sizing: border-box;
+`
+
+const Image = styled.img`    
+width: 100%;    
 `
